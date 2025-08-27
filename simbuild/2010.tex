@@ -1,0 +1,101 @@
+\documentclass[10pt, twocolumn, letterpaper]{article}
+\usepackage[pass, margin=1in]{geometry} %one inch margins
+\usepackage{ibpsa} % defines look
+\usepackage{pslatex}
+\usepackage{achicago}
+\usepackage{amsmath, amssymb}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{ifthen}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{makecell}
+\usepackage{longtable}
+
+\pagestyle{empty}
+\setlength{\voffset}{-1.25in}
+\setlength{\headheight}{1in}
+\definecolor{ibpsared}{RGB}{224, 2, 1}
+
+\begin{document}
+
+\section*{Table of Contents}
+\thispagestyle{empty}
+
+\fancypagestyle{empty}{%
+  \fancyhf{}%
+  \vspace{0.5in}%
+  \fancyhead[L]{\includegraphics [height=0.7in] {images/ibpsa.jpg}}%
+  \fancyhead[R]{Proceedings of SimBuild Conference 2010\\4th Conference of IBPSA-USA \\ New York City, New York \\ August 11-13, 2010}
+}
+
+\begin{longtable}{p{6in}r}
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Impact of Different Daylighting Simulation Results on the Prediction of Total Energy}\\\textcolor{ibpsared}{Consumption}\\\textit{Ana Paula, Melo;  Roberto, Lamberts}\end{tabular} & 1\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Solar Heat Surplus and Solar Heat Scarcity: The Inclusion of Solar Heat Gain in a}\\\textcolor{ibpsared}{Dynamic and Holistic Daylight Analysis}\\\textit{Siân, Kleindienst;  Marilyne, Andersen}\end{tabular} & 8\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Real-Time Monitoring of Building Energy Behavior: A Conceptual Framework}\\\textit{Alexandre, Nassiopoulos;  Frédéric, Bourquin}\end{tabular} & 24\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Validation of a Low-Energy Whole Building Simulation Model}\\\textit{Graziano, Salvalai;  Jens, Pfafferott;  Dirk, Jacob}\end{tabular} & 32\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Development of a Calibration Methodology for the Energy Simulation of an Existing}\\\textcolor{ibpsared}{Building from 1969}\\\textit{Tobias, Leibing;  Claudius, Reiser;  Oliver, Baumann}\end{tabular} & 40\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Energy Modeling at Each Design Phase: Strategies to Minimize Design Energy Use}\\\textit{Kendra, Tupper;  Caroline, Fluhrer}\end{tabular} & 48\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Analysis of Procedures and Workflow for Conducting Energy Analysis Using Autodesk}\\\textcolor{ibpsared}{Revit, gbXML, and Trace700}\\\textit{Shariq, Ali}\end{tabular} & 56\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Modeling Protocol for Early Energy Design Assistance}\\\textit{Chris, Baker;  Prasad, Vaidya;  Alan, D'Souza}\end{tabular} & 64\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Enumerating a Diverse Set of Building Designs Using Discrete Optimization}\\\textit{Elaine T., Hale;  Nicholas L., Long}\end{tabular} & 77\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Using DOE Commercial Reference Buildings for Simulation Studies}\\\textit{Kristin, Field;  Michael, Deru;  Daniel, Studer}\end{tabular} & 85\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{A Building Simulation Sustainability Analysis to Assess Dwellings in a New Cairo}\\\textcolor{ibpsared}{Development}\\\textit{Wael, Sheta;  Steve, Sharples}\end{tabular} & 94\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{The Coupling of ESP-r and GenOpt: A Simple Case Study}\\\textit{Leen, Peeters;  Michael, Wetter;  Alex, Ferguson;  William, D'haeseleer}\end{tabular} & 102\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Multi-Objective Facade Optimization for Daylighting Design Using a Genetic Algorithm}\\\textit{Jaime M. L., Gagne;  Marilyne, Andersen}\end{tabular} & 110\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Optimizing Building Energy Simulation Models in the Face of Uncertainty}\\\textit{Dirk, Jacob;  Sebastian, Burhenne;  Anthony R., Florita;  Gregor P., Henze}\end{tabular} & 118\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{VisualEPlus: A Chinese Interactive Graphical User Interface (GUI) for EnergyPlus}\\\textit{Yiqun, Pan;  Qiqiang, Li;  Hui, Zhou;  Zhizhong, Huang;  Zongjian, He;  Joe, Huang}\end{tabular} & 126\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Reconciling Differences in Residential DX Cooling Models in DOE-2 and EnergyPlus}\\\textit{Nathanael, Kruis}\end{tabular} & 134\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{EnergyPlus vs DOE-2: The Effect of Ground Coupling on Heating-Cooling Energy of a}\\\textcolor{ibpsared}{Slab-On-Grade House}\\\textit{Simge, Andolsun;  Charles H., Culp;  Jeff, Haberl}\end{tabular} & 142\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Space Load and System Load Comparison Using Energy Modeling Software}\\\textit{Cassie, Waddell;  Shruti, Kaserekar}\end{tabular} & 150\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Experimental and Numerical Comparison of Heat Transfer in a Naturally Ventilated Roof}\\\textcolor{ibpsared}{Cavity}\\\textit{Adrien, Brun;  Etienne, Wurtz;  Daniel, Quenard}\end{tabular} & 160\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Beyond Arrows: CFD Modeling of a New, Naturally Ventilated Double-Skin Facade}\\\textcolor{ibpsared}{Configuration in a Chicago High Rise Office Building}\\\textit{Mona, Azarbayjani; Jim, Anderson}\end{tabular} & 170\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{A Comparison of Window Modeling Methods in EnergyPlus 4.0}\\\textit{Peter, Lyons;  Justin, Wong;  Mahabir, Bhandari}\end{tabular} & 177\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{A New Model for Calculating the Convective and Radiant Impact of Radiators and}\\\textcolor{ibpsared}{Baseboards in EnergyPlus}\\\textit{Daeho, Kang;  Richard K., Strand}\end{tabular} & 185\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Dynamic Modeling of Mechanical Draft Counter-Flow Wet Cooling Tower with Modelica}\\\textit{Xiao, Li;  Yaoyu, Li;  John E., Seem}\end{tabular} & 193\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Modeling of the Single Coil, Twin Fan Air-Conditioning System in EnergyPlus}\\\textit{Clayton, Miller;  Chandra, Sekhar}\end{tabular} & 201\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Towards the Application of Distributed Simulation in Whole Building Heat, Air and}\\\textcolor{ibpsared}{Moisture Performance Engineering}\\\textit{M., Mirsadeghi;  D., Cóstola;  B., Blocken;  J. L. M., Hensen}\end{tabular} & 207\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Heat Flow Modeling of HVAC Systems for Fault Detection and Diagnosis}\\\textit{Gerhard, Zimmermann;  Yan, Lu;  George, Lo}\end{tabular} & 215\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Thermodynamics of the Microclimate: Effects of External Elements on Internal Heat}\\\textcolor{ibpsared}{Gains}\\\textit{Anupam, Jain;  Aran, Osborne}\end{tabular} & 223\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Optimizing the Effect of Vegetation for Pedestrian Thermal Comfort and Urban Heat}\\\textcolor{ibpsared}{Island Mitigation in a Hot Arid Urban Environment}\\\textit{Akram, Rosheidat;  Harvey, Bryan}\end{tabular} & 230\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Quantification of Available Solar Irradiation on Rooftops Using Orthograph and LiDAR}\\\textcolor{ibpsared}{Data}\\\textit{Chanikarn, Yimprayoon;  Mojtaba, Navvab}\end{tabular} & 238\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Thermal Behavior of Urban Canyons Using Numerical Modeling, CFD Simulation and GIS}\\\textcolor{ibpsared}{Mapping}\\\textit{Rafael Silva, Brandão;  Marcia Peinado, Alucci}\end{tabular} & 244\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Customizing the Behavior of Interacting Occupants Using Personas}\\\textit{Rhys, Goldstein;  Alex, Tessier;  Azam, Khan}\end{tabular} & 252\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Window Opening Behavior in a Naturally Ventilated School}\\\textit{Spencer, Dutton;  Li, Shao}\end{tabular} & 260\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Agent-Based Modeling and Simulation of Individual Building Occupants}\\\textit{Gerhard, Zimmermann}\end{tabular} & 269\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Going Beyond a RESNET Certification for Code-Compliant Simulations: A Comparison of}\\\textcolor{ibpsared}{Detailed Results of Three RESNET-Certified, Code-Compliant Residential Simulation Programs}\\\textit{Zi, Liu  Hyojin, Kim  Mini, Malhotra  Jaya, Mukhopadhyay  Juan-Carlos, Baltazar}\\\textit{ Jeff, Haberl  Charles, Culp  Bahman, Yazdani  Cynthia, Montgomery}\end{tabular} & 277\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Simulating Building Energy Performance of Single-Family Detached Residences Designed}\\\textcolor{ibpsared}{for Off-Grid, Off-Pipe Operation}\\\textit{Mini, Malhotra;  Jeff, Haberl}\end{tabular} & 285\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{What Does It Take for the Residential Building Sector to Reach Net-Zero Energy?}\\\textit{Kevin, Otto;  Russell, Taylor;  Rohini, Brahme;  William, Sisson}\end{tabular} & 293\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{On the Use of Integrated Daylighting and Energy Simulations to Drive the Design of a}\\\textcolor{ibpsared}{Large Net-Zero Energy Office Building}\\\textit{Rob, Guglielmetti;  Shanti, Pless;  Paul A., Torcellini}\end{tabular} & 301\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Integrating Advanced Daylight Analysis into Building Energy Analysis}\\\textit{John, An;  Sam, Mason}\end{tabular} & 310\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Animated Building Performance Simulation (ABPS): Linking Rhinoceros/Grasshopper with}\\\textcolor{ibpsared}{Radiance/Daysim}\\\textit{Kera, Lagios;  Jeff, Niemasz;  Christoph F., Reinhart}\end{tabular} & 321\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Tool for Generating Realistic Residential Hot Water Event Schedules}\\\textit{Robert, Hendron;  Jay, Burch;  Greg, Barker}\end{tabular} & 328\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Implementation of a Model for a Wind Turbine System in EnergyPlus}\\\textit{Daeho, Kang;  Richard K., Strand}\end{tabular} & 336\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Integrating Solar Thermal and Photovoltaic Systems in Whole Building Energy Simulation}\\\textit{Soolyeon, Cho;  Jeff S., Haberl}\end{tabular} & 344\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Energy Efficiency Code in Brazil: Experiences in the First Public Building Labeled in}\\\textcolor{ibpsared}{Brasilia}\\\textit{Cláudia Naves David, Amorim  Milena Sampaio, Cintra  Caio Frederico, e Silva}\\\textit{ Júlia, Teixeira Fernandes  Larissa Olivier, Sudbrack}\end{tabular} & 352\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Modeling Energy Demand for Heating at a City Scale}\\\textit{Aneta, Strzalka;  Ursula, Eicker;  Volker, Coors;  Jürgen, Schumacher}\end{tabular} & 358\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Estimating Material Usage of Road Infrastructure in US Cities}\\\textit{David, Quinn;  John E., Fernández}\end{tabular} & 365\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Proactive Energy Management for Next-Generation Building Systems}\\\textit{Victor M., Zavala  Jianhui, Wang  Sven, Leyffer  Emil M., Constantinescu}\\\textit{ Mihai, Anitescu  Guenter, Conzelmann}\end{tabular} & 377\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Dynamic Modeling and Consistent Initialization of System of Differential-Algebraic}\\\textcolor{ibpsared}{Equations for Centrifugal Chillers}\\\textit{Pengfei, Li;  Yaoyu, Li;  John E., Seem}\end{tabular} & 386\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Comparison of Building Load Performance Between First Principle Based Shading}\\\textcolor{ibpsared}{Algorithm and Implementable Shading Control Algorithm}\\\textit{Rui, Zhang;  Khee Poh, Lam}\end{tabular} & 394\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Dynamic Radiance: Predicting Annual Daylighting with Variable Fenestration Optics}\\\textcolor{ibpsared}{Using BSDFs}\\\textit{Mudit, Saxena;  Greg, Ward;  Timothy, Perry;  Lisa, Heschong;  Randall, Higa}\end{tabular} & 402\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{The Daylighting Dashboard - A Simulation-Based Analysis for Daylit Spaces}\\\textit{Christoph F., Reinhart;  Jan, Wienold}\end{tabular} & 410\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Uncertainty Analysis in Building Simulation with Monte Carlo Techniques}\\\textit{Sebastian, Burhenne;  Dirk, Jacob;  Gregor P., Henze}\end{tabular} & 419\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Using Statistical Methods to Investigate the Mapping from Initial Values to the}\\\textcolor{ibpsared}{Multiple Steady States in Complex Building Simulation Problems}\\\textit{Jinchao, Yuan;  Leon R., Glicksman}\end{tabular} & 427\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Decomposing Building System Data for Model Validation and Analysis Using the Koopman}\\\textcolor{ibpsared}{Operator}\\\textit{Bryan, Eisenhower;  Tobias, Maile;  Martin, Fischer;  Igor Mezić}\end{tabular} & 434\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Use of Building Simulation Software TAS to Investigate the Dynamic Thermal Performance}\\\textcolor{ibpsared}{of a School Building with Installation of a Monodraught Natural Ventilation and Cooling System}\\\textit{Naghman, Khan;  Yuehong, Su;  Saffa B., Riffat;  Nick, Hopper}\end{tabular} & 442\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Toward Zero Energy Buildings: Optimized for Energy Use and Cost}\\\textit{Carrie, Brown;  Leon, Glicksman;  Matthew, Lehar}\end{tabular} & 452\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Development of a Dedicated Outdoor Air System Module for a Whole Building Annual}\\\textcolor{ibpsared}{Simulation Program}\\\textit{Young Tae, Chae;  Richard K., Strand}\end{tabular} & 458\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Influence of Supply Air Temperature on Underfloor Air Distribution (UFAD) System}\\\textcolor{ibpsared}{Energy Performance}\\\textit{Tom, Webster  Kwang Ho, Lee  Fred, Bauman  Stefano, Schiavon  Tyler, Hoyt}\\\textit{ Jingjuan, Feng  Allan, Daly}\end{tabular} & 466\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Model-Based Thermal Load Estimation of Buildings}\\\textit{Zheng, O'Neill;  Satish, Narayanan;  Rohini, Brahme}\end{tabular} & 474\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Analysis of the Energy Savings Potential in K-5 Schools in Hot and Humid Climates:}\\\textcolor{ibpsared}{Application of High Performance Measures and Renewable Energy Systems}\\\textit{Piljae, Im;  Jeff S., Haberl}\end{tabular} & 482\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{An Introduction to the CFD Capabilities in CONTAM 3.0}\\\textit{Liangzhu (Leon), Wang;  W. Stuart, Dols;  Qingyan, Chen}\end{tabular} & 490\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Robust Eddy Viscosity Turbulence Modeling with Elliptic Relaxation for External}\\\textcolor{ibpsared}{Building Flow Analysis}\\\textit{Mirza, Popovac}\end{tabular} & 497\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{CFD Simulation Enhances the Optimization of a Data Center's Expansion Process}\\\textit{Gang, Tan;  Kevin S., Venerable}\end{tabular} & 506\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Performance-Based Incentive Program for New Buildings: Report from the Field}\\\textit{Maria, Karpman;  Mike, Karpman;  Shelley, Beaulieu;  Tom, Rooney;  Dan, Cogan}\end{tabular} & 514\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Pushing the Limits of Simulation Complexity: A Building Energy Performance Simulation}\\\textcolor{ibpsared}{Exhibition Center in the U.A.E.}\\\textit{Marcus, Jones;  Stephan, Ledinger}\end{tabular} & 523\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Is Real-Time Pricing Right for Solar PV?}\\\textit{Jeffrey, Perlman;  Andrew, McNamara;  Da-Wei, Huang;  Lindsay, Audin}\end{tabular} & 531\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Improvements on the Fast Fluid Dynamic Model for Indoor Airflow Simulation}\\\textit{Wangda, Zuo;  Qingyan, Chen}\end{tabular} & 539\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Methodology for Quantifying the Performance Implications of Intelligent Shade Control}\\\textcolor{ibpsared}{in Existing Buildings in an Urban Context}\\\textit{William, O'Brien;  Konstantinos, Kapsis;  Andreas, Athienitis;  Ted, Kesik}\end{tabular} & 816
+\end{longtable}
+
+\end{document}

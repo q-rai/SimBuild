@@ -1,0 +1,69 @@
+\documentclass[10pt, twocolumn, letterpaper]{article}
+\usepackage[pass, margin=1in]{geometry} %one inch margins
+\usepackage{ibpsa} % defines look
+\usepackage{pslatex}
+\usepackage{achicago}
+\usepackage{amsmath, amssymb}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{ifthen}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{makecell}
+\usepackage{longtable}
+
+\pagestyle{empty}
+\setlength{\voffset}{-1.25in}
+\setlength{\headheight}{1in}
+\definecolor{ibpsared}{RGB}{224, 2, 1}
+
+\begin{document}
+
+\section*{Table of Contents}
+\thispagestyle{empty}
+
+\fancypagestyle{empty}{%
+  \fancyhf{}%
+  \vspace{0.5in}%
+  \fancyhead[L]{\includegraphics [height=0.7in] {images/ibpsa.jpg}}%
+  \fancyhead[R]{Proceedings of SimBuild Conference 2008\\3rd Conference of IBPSA-USA \\ Berkeley, California  \\ July 30 – August 01, 2008}
+}
+
+\begin{longtable}{p{6in}r}
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Development of New Self-Comparison Test Suites for EnergyPlus}\\\textit{Michael J., Witte;  Robert H., Henninger;  Drury B., Crawley}\end{tabular} & 1\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Identification of Building Model Parameters and Loads Using On-Site Data Logs}\\\textit{Thomas L., McKinley;  Andrew G., Alleyne}\end{tabular} & 9\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Energy Modeling for Measurement and Verification}\\\textit{Linda, Morrison;  Renée, Azerbegi;  Andy, Walker}\end{tabular} & 17\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{The EnergyPlus UFAD Module}\\\textit{Qing A., Liu;  Paul F., Linden}\end{tabular} & 23\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{A System Level Simulation Model of SOFC Systems for Building Applications}\\\textit{Kwang Ho, Lee;  Richard K., Strand}\end{tabular} & 29\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Using Spark as a Solver for Modelica}\\\textit{Michael, Wetter;  Philip, Haves;  Michael A., Moshier;  Edward F., Sowell}\end{tabular} & 37\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Testing and Validating an Equation-Based Dynamic Building Program with ASHRAE Standard}\\\textcolor{ibpsared}{Method of Test}\\\textit{Shui, Yuan;  Zheng, O'Neill}\end{tabular} & 45\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Building and HVAC System Simulation with the Help of an Engineering Equation Solver}\\\textit{S., Bertagnolio;  G., Masy;  J., Lebrun;  P., André}\end{tabular} & 53\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Specification of an Information Delivery Tool to Support Optimal Holistic}\\\textcolor{ibpsared}{Environmental and Energy Management in Buildings}\\\textit{James, O'Donnell;  Marcus, Keane;  Vladimir, Bazjanac}\end{tabular} & 61\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{A Modular Building Controls Virtual Test Bed for the Integration of Heterogeneous}\\\textcolor{ibpsared}{Systems}\\\textit{Michael, Wetter;  Philip, Haves}\end{tabular} & 69\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Federation Tower Moscow - Different Room Climates Under One Roof}\\\textit{Oliver, Baumann;  Claudius, Reiser}\end{tabular} & 77\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{CFD and Daylight Simulation Calibrated with Site Measurement for Waiting Hall of}\\\textcolor{ibpsared}{Shanghai South Railway Station}\\\textit{Yiqun, Pan;  Gang, Wu;  Fujun, Yang;  Zhizhong, Huang}\end{tabular} & 84\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Simulated Performance of Solar Domestic Hot Water Technologies in New York State}\\\textit{Andrew, McNamara;  Jeffrey, Perlman;  Richard, Perez}\end{tabular} & 92\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{An Enhanced Sequential Search Methodology for Identifying Cost-Optimal Building}\\\textcolor{ibpsared}{Pathways}\\\textit{Scott, Horowitz;  Craig, Christensen;  Michael, Brandemuehl;  Moncef, Krarti}\end{tabular} & 100\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Comparative Simulation of a High Performance Building with EW4-DOE2.1E and EnergyPlus}\\\textit{Zhen, Tian;  Wei, Tian;  James A., Love}\end{tabular} & 108\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Simulation of Off-Grid, Off-Pipe, Single-Family Detached Residences in U.S. Climates}\\\textit{Mini, Malhotra;  Jeff, Haberl}\end{tabular} & 116\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Validation and Parametric Analysis of EnergyPlus: Air Flow Network Model Using CONTAM}\\\textit{Spencer, Dutton;  Li, Shao;  Saffa, Riffat}\end{tabular} & 124\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{CoolVent: A Multizone Airflow and Thermal Analysis Simulator for Natural Ventilation}\\\textcolor{ibpsared}{in Buildings}\\\textit{Maria-Alejandra, Menchaca-B.;  Leon, Glicksman}\end{tabular} & 132\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{The Role of Wind in Natural Ventilation Simulations Using Airflow Network Models}\\\textit{Joel, Good;  Andrea, Frisque;  Duncan, Phillips}\end{tabular} & 140\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Potential and Limitations for Hydronic Radiant Slabs Using Waterside Free Cooling and}\\\textcolor{ibpsared}{Dedicated Outside Air Systems}\\\textit{Timothy, Moore}\end{tabular} & 148\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Bracketing Residential "Net-Zeroness" During Design Stage}\\\textit{Rohini, Brahme;  Gregory, Dobbs;  Thierry, Carriere}\end{tabular} & 156\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Tqm Approaches to Incorporating Simulation into Residential Energy Retrofit Programs}\\\textit{Chris, Balbach; Greg, Thomas}\end{tabular} & 164\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{DIN 18599 - Accounting for Primary Energy New Code Requires Dynamic Simulation}\\\textit{Claudius, Reiser;  Ruth, David;  Markus, Faigl;  Oliver, Baumann}\end{tabular} & 170\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Simulation and Model Calibration of a Large-Scale Solar Seasonal Storage System}\\\textit{Timothy P., McDowell;  Jeff W., Thornton}\end{tabular} & 174\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Effective Early Collaboration Between Engineers and Architects for Successful}\\\textcolor{ibpsared}{Energy-Efficient Design}\\\textit{Thomas, White;  Mitchell, Dec;  Dana, Troy; Brian, Thornton}\end{tabular} & 182\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Development of a Simplified Simulation Tool for High Performance K-5 Schools in Hot}\\\textcolor{ibpsared}{and Humid Climates}\\\textit{Piljae, Im;  Jeff S., Haberl}\end{tabular} & 190\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Visualizing Pedestrian Comfort Using ENVI-met}\\\textit{Akram, Rosheidat;  Dan, Hoffman;  Harvey, Bryan}\end{tabular} & 198\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{A Scalable Lighting Simulation Tool for Integrated Building Design}\\\textit{Yi Chun, Huang;  Khee Poh, Lam;  Gregory, Dobbs}\end{tabular} & 206\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Modeling of Underfloor Air Distribution (UFAD) Systems}\\\textit{Tom, Webster;  Fred, Bauman;  Fred, Buhl;  Allan, Daly}\end{tabular} & 214\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Development of a Simulation Toolkit for the Selection of High-Performance Systems for}\\\textcolor{ibpsared}{Office Buildings in Hot and Humid Climates (Phase I: Calibrated Simulation of the Case Study Building)}\\\textit{Soolyeon, Cho;  Jeff, Haberl}\end{tabular} & 222\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Demeter - A Green Building Plugin for SketchUp}\\\textit{Neil, Finlayson  Malcolm, Murray  David, Maciver  James, Morrison  Murdo, Morrison}\\\textit{ Donald, Macdonald  Donald, Macaskill  Donald, Macritchie  Ioannis, Rizos}\end{tabular} & 230\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Energy Design Plugin: An EnergyPlus Plugin for Sketchup}\\\textit{Peter G., Ellis;  Paul A., Torcellini;  Drury B., Crawley}\end{tabular} & 238\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{COMFEN a Commercial Fenestration/Facade Design Tool}\\\textit{Robert J., Hitchcock  Robin, Mitchell  Mehry, Yazdanian  Eleanor, Lee}\\\textit{ Charlie, Huizenga}\end{tabular} & 246\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Simulating the Impact on Buildings of Changing Climate - Creation and Application of}\\\textcolor{ibpsared}{Ersatz Future Weather Data Files}\\\textit{T., Lee;  D., Ferrari}\end{tabular} & 253\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Lessons from an Advanced Building Simulation Course}\\\textit{Godfried, Augenbroe  Jason, Brown  YeonSook, Heo  Sean Hay, Kim  Zhengwei, Li}\\\textit{ Scott, McManus  Fei, Zhao}\end{tabular} & 261
+\end{longtable}
+
+\end{document}

@@ -1,0 +1,114 @@
+\documentclass[10pt, twocolumn, letterpaper]{article}
+\usepackage[pass, margin=1in]{geometry} %one inch margins
+\usepackage{ibpsa} % defines look
+\usepackage{pslatex}
+\usepackage{achicago}
+\usepackage{amsmath, amssymb}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{ifthen}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{makecell}
+\usepackage{longtable}
+
+\pagestyle{empty}
+\setlength{\voffset}{-1.25in}
+\setlength{\headheight}{1in}
+\definecolor{ibpsared}{RGB}{224, 2, 1}
+
+\begin{document}
+
+\section*{Table of Contents}
+\thispagestyle{empty}
+
+\fancypagestyle{empty}{%
+  \fancyhf{}%
+  \vspace{0.5in}%
+  \fancyhead[L]{\includegraphics [height=0.7in] {images/logo_new.jpg}}%
+  \fancyhead[R]{\textcolor{headergray}{2020 Building Performance Analysis Conference and SimBuild \\co-organized by ASHRAE and IBPSA-USA  \\ virtual \\ September 29- October 1,2020}}
+}
+
+\begin{longtable}{p{6in}r}
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Modeling the Load Flexibility Potentials for Ice Energy Storage}\\\textit{Karl, Heine;  Paulo Cesar, Tabares-Velasco;  Ryan, Meyer;  Michael, Deru}\end{tabular} & 1\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Data-Driven Predictive Control for Commercial Buildings with Multiple Energy}\\\textcolor{ibpsared}{Flexibility Sources}\\\textit{Anjukan, Kathirgamanathan;  Mattia, De Rosa;  Eleni, Mangina;  Donal P., Finn}\end{tabular} & 9\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Evaluating Facility Energy Efficiency and Resilience Opportunities with FEDS and MCOR}\\\textit{Robert, Dahowski;  Sarah, Newman;  Varun, Sood;  Travis, Douville}\end{tabular} & 19\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Characterization of Connected Lighting System Potential for Grid Services Under}\\\textcolor{ibpsared}{Real-Time Pricing}\\\textit{Peng, Wang  Michael R., Brambley  Michael E., Poplawski  Michael, Myer}\\\textit{ Jianming, Lian  Robert G., Lutes  Sen, Huang  Alex, Vlachokostas}\end{tabular} & 27\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{A Framework for Delivering Energy Efficiency and Decentralised Energy Generation}\\\textcolor{ibpsared}{Projects to Tackle Fuel Poverty and CO2 Emissions in Cities}\\\textit{Javier, Urquizo;  Carlos, Calderón;  Philip, James}\end{tabular} & 35\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Buildings-to-Distribution Network Integration to Enable Voltage Regulation Considering}\\\textcolor{ibpsared}{Renewable Energy Resources}\\\textit{Hannah, Fontenot  Krishna Sandeep, Ayyagari  Bing, Dong  Nikolaos, Gatsis}\\\textit{ Ahmad, Taha}\end{tabular} & 44\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Optimal Efficiency and Operational Cost Savings: A Framework for Automated Rooftop PV}\\\textcolor{ibpsared}{Placement}\\\textit{Rawad, El Kontar;  Xin, Jin}\end{tabular} & 53\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Towards a Standardized Framework for Thermal Resilience Modeling and Analysis}\\\textit{Ted, Kesik;  William, O'Brien;  Aylin, Ozkan}\end{tabular} & 61\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Machine Learning Based Optimization Approach for Building Energy Performance}\\\textit{Aslihan, Senel Solmaz}\end{tabular} & 69\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Using Simplified Geometry Model to Improve Energy Modeling Efficiency and Reduce Cost}\\\textit{Yiyuan, Jia;  Fred, Betz}\end{tabular} & 77\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{A Common Language to Design Carbon Neutral Projects by 2030}\\\textit{Tommy, Zakrzewski;  Mike, Brown;  Kyleen, Rockwell}\end{tabular} & 87\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Daylight Availability and Occupant Visual Comfort in Seattle Multi-Family Housing}\\\textit{Guanzhou, Ji}\end{tabular} & 93\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Challenging Conventional Approaches for Climate-Based Daylight Simulations of}\\\textcolor{ibpsared}{Multi-Unit Residential Buildings}\\\textit{Terri, Peters;  Noor, Alkhalili;  Ted, Kesik;  William, O'Brien}\end{tabular} & 103\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{The Solar Heliodon: Physical Simulation of Dynamic Daylighting Conditions in Scale}\\\textcolor{ibpsared}{Architectural Models for Subjective and Objective Human-Factors Evaluation}\\\textit{Kyle, Konis}\end{tabular} & 111\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{A Framework to Simulate the Non-Visual Effects of Daylight on the Cognitive Health of}\\\textcolor{ibpsared}{Mild Cognitive Impairment (MCI) People}\\\textit{Nourhan, Elsayed;  Tarek, Rakha}\end{tabular} & 119\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Spatial Daylight Autonomy Imprecision Correlated to the Increased Application of}\\\textcolor{ibpsared}{Daylight Driven Design}\\\textit{Kyleen, Rockwell}\end{tabular} & 130\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Modeling and Cost-Effectiveness Analysis of Zero Net Energy Homes in California}\\\textit{Sang Hoon, Lee;  Max, Wei;  Tianzhen, Hong}\end{tabular} & 136\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Assessing Resiliency and Passive Survivability in Multifamily Buildings}\\\textit{Lisa M., White;  Graham S., Wright}\end{tabular} & 144\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{A Generic Energy Flexibility Evaluation Framework to Characterise the Demand Response}\\\textcolor{ibpsared}{Potential of Residential Buildings}\\\textit{Adamantios, Bampoulas  Mohammad, Saffari  Fabiano, Pallonetto  Eleni, Mangina}\\\textit{ Donal P., Finn}\end{tabular} & 156\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Optimal Operation for Resilient Communities through a Hierarchical Load Scheduling}\\\textcolor{ibpsared}{Framework}\\\textit{Jing, Wang;  Kaitlyn, Garifi;  Kyri, Baker;  Wangda, Zuo;  Yingchen, Zhang}\end{tabular} & 165\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Evaluation of an Evolving Housing Stock: Scenarios Towards Its Decarbonisation}\\\textit{Gustavo, Sousa}\end{tabular} & 173\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{A Building Envelope Characterization Workflow for In-Situ Thermal Performance}\\\textcolor{ibpsared}{Assessment}\\\textit{Tyler, Pilet;  Tarek, Rakha}\end{tabular} & 180\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Diverse Occupancy Simulation and Presence Sensing Viability for Residential Thermal}\\\textcolor{ibpsared}{Energy Regulation: Review and Initial Findings}\\\textit{Tarek, Sherif;  Tarek, Rakha}\end{tabular} & 190\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Review of Non-Destructive Techniques (NDTs) for Building Diagnostic Inspections}\\\textit{Yasser, El Masri;  Tarek, Rakha}\end{tabular} & 201\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Numerical Investigation of External Convective Heat Transfer Coefficient for Buildings}\\\textcolor{ibpsared}{in Different Land-Use Class}\\\textit{Anwar D., Awol;  Girma T., Bitsuamlak;  Fitsum A., Tariku}\end{tabular} & 214\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Impact Analysis of Personalized Thermostat Demand Response}\\\textit{Kunind, Sharma;  Michael, Kane}\end{tabular} & 222\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{A Novel Approach to Modelling Air Flow Through Operable Windows in High-Rise}\\\textcolor{ibpsared}{Multi-Unit Residential Buildings Using Energy Plus}\\\textit{Jamie P., Fine;  Marianne F., Touchie}\end{tabular} & 230\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Efficient Computation of Surface Sunlit Fractions in Urban-Scale Building Modeling}\\\textcolor{ibpsared}{Using Ray-Tracing Techniques}\\\textit{Xuan, Luo;  Yu-Hang, Tang;  Tianzhen, Hong}\end{tabular} & 238\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{A New Calculating Method of the Effect of Natural Ventilation Control in Office}\\\textcolor{ibpsared}{Buildings with Buoyancy Driven Ventilation}\\\textit{Kei, Shimonosonol; Kimiko, Kohri; Hisaya, Ishino}\end{tabular} & 244\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{ARINet: Using 3D Convolutional Neural Networks to Estimate Annual Radiation}\\\textcolor{ibpsared}{Intensities on Building Facades}\\\textit{Jung Min, Han;  Chih-Kang, Chang;  Ali, Malkawi}\end{tabular} & 252\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Verification of ANN Solar Radiation Prediction Algorithm for Real-Time Energy}\\\textcolor{ibpsared}{Simulation}\\\textit{Hany, Gaballa;  Soolyeon, Cho}\end{tabular} & 260\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Design and Development of a Decentralized and Distributed IoT Home Monitoring System}\\\textcolor{ibpsared}{Within a DC Nanogrid}\\\textit{Jonathan, Ore;  Eckhard A., Groll}\end{tabular} & 267\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{High-Level Model Articulation with Buildingsync and OpenStudio}\\\textit{Cory, Mosiman  Nicholas Lee, Long  Tobias, Maile  Katherine, Fleming}\\\textit{ Christopher, CaraDonna}\end{tabular} & 275\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Towards a Standard Climate Data Model for Building Design and Analysis}\\\textit{Sagar, Rao;  Parag, Rastogi}\end{tabular} & 285\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{URBANopt: An Open-Source Software Development Kit for Community and Urban District}\\\textcolor{ibpsared}{Energy Modeling}\\\textit{Rawad, El Kontar  Ben, Polly  Tanushree, Charan  Katherine, Fleming  Nathan, Moore}\\\textit{ Nicholas, Long  David, Goldwasser}\end{tabular} & 293\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Live BIM for Capturing Dynamism of Physical Spaces, Occupants and Assets Through}\\\textcolor{ibpsared}{Linked Data}\\\textit{Arash Hosseini, Gourabpasi;  Mazdak, Nik-Bakht}\end{tabular} & 302\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Energy and Ventilation Performance Analysis for CO2-Based Demand-Controlled}\\\textcolor{ibpsared}{Ventilation in Multiple Zone VAV Systems with Multiple Recirculation Paths}\\\textit{Xing, Lu;  Tao, Yang;  Zheng, O'Neill;  XiaoHui, Zhou}\end{tabular} & 308\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{A New Detailed Model of Wood Pellet Boilers}\\\textit{Timothy, McDowell;  Khaled, Yousef;  John, Siegenthaler;  Thomas, Butcher}\end{tabular} & 317\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Deriving Simulation Parameters for Storage-Type Water Heaters Using Ratings Data}\\\textcolor{ibpsared}{Produced from the Uniform Energy Factor Test Procedure}\\\textit{Jeff, Maguire;  David, Roberts}\end{tabular} & 325\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Effect of Geometry and Operational Parameters Over the Dehumidification Performance of}\\\textcolor{ibpsared}{a Desiccant Coated Heat Exchanger}\\\textit{Ming, Qu;  Thomas Pablo, Venegas;  Kashif, Nawaz;  Lingshi, Wang}\end{tabular} & 332\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Seasonal Performance Simulation of a Gas-Fired Chemisorption Heat Pump for Residential}\\\textcolor{ibpsared}{Heating in Cold Climate}\\\textit{Zhiyao, Yang;  Ming, Qu;  Kyle R., Gluesenkamp}\end{tabular} & 342\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{A Rewarded-Project Story from Japan: Comfort vs View in a Fancy Glazed Atrium}\\\textit{Yasin Mohamed Ibrahim, Idris  Nakagawa, Hiroaki  Hajime, Iseda  Nagata, Takuya}\\\textit{ Xu, Tianshu  Kuniaki, Ando  Kunihiko, Fujiwara}\end{tabular} & 349\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{The Case for Multicriteria Annual Sunlight Exposure Guidelines}\\\textit{Belal, Abboushi}\end{tabular} & 358\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Development of a Fast Prediction and Interactive Design Method of Visual Comfort for}\\\textcolor{ibpsared}{Indoor Multisport Facilities Based on AcceleradRT Real-Time Simulation Feedback}\\\textit{Lingling, Li;  Yu, Li}\end{tabular} & 374\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Modeling and Simulation of a Campus Living Building: A Case Study in Uncertainty}\\\textcolor{ibpsared}{Analysis and Stress Testing}\\\textit{Tanushree, Charan;  Sol, Haroon;  Godfried, Augenbroe}\end{tabular} & 384\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Improving Model Calibration Methods: A Case Study Application of Incorporating IEQ}\\\textcolor{ibpsared}{with Energy}\\\textit{Nishesh, Jain;  Esfand, Burman;  Dejan, Mumovic;  Michael, Davies}\end{tabular} & 392\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Empirical Validation of Multi-Zone Building and HVAC System Models Under Uncertainty}\\\textit{Qi, Li;  Ralph T., Muehleisen;  Piljae, Im;  Jaewan, Joe}\end{tabular} & 408\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Ranking Energy Influential Parameters - How Building Type Affects the Parameters'}\\\textcolor{ibpsared}{Influence}\\\textit{Rafaela Orenga, Panizza;  Mazdak, Nik-Bakht}\end{tabular} & 416\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Simple Building Calculator}\\\textit{Chitra, Nambiar;  Reid, Hart}\end{tabular} & 423\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Calculating Fenestration System U-Factor, SHGC, and VT Using Partially Automated}\\\textcolor{ibpsared}{Workflows}\\\textit{Sarah, Rentfro}\end{tabular} & 431\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Shaping High-Rise Towers to Meet BC Energy Step Code}\\\textit{Haobo, Liu;  Andrea, Frisque;  Jeanie, Chan;  Bowen, Xue;  Oscar, Valdes}\end{tabular} & 439\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Research on Guidelines for Window Design Strategies in High Performance Office}\\\textcolor{ibpsared}{Buildings}\\\textit{Qinbo, Li;  Jeff, Haberl}\end{tabular} & 447\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{A Modeling Framework for Engine-Neutral Automation of Building Analysis and Compliance}\\\textcolor{ibpsared}{Reporting}\\\textit{Eric, Niemeyer;  Sagar, Rao}\end{tabular} & 455\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Energy Analysis of Steam Distribution System Using a Physics-Based Model: A Campus}\\\textcolor{ibpsared}{Building Case Study}\\\textit{Behzad Saliman, Rizi  Akram Syed, Ali  Christopher, Riley  Brent, Stephens}\\\textit{ Mohammad, Heidarinejad}\end{tabular} & 463\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Future Meteorological Year Weather Data from IPCC Scenarios}\\\textit{Brett, Bass;  Joshua, New}\end{tabular} & 471\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Impact of Soil Temperature Variation on Performance Modeling of a Novel Shallow Bore}\\\textcolor{ibpsared}{Ground Heat Exchanger}\\\textit{Liang, Shi;  Ming, Qu;  Xiaobing, Liu;  Mingkan, Zhang}\end{tabular} & 478\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Effective Strategies for Reducing Plug Load: Results from a Field Study Conducted at}\\\textcolor{ibpsared}{Two of the Largest US Banks}\\\textit{Andrea, Lieberman;  Robert W., Cox;  Benjamin, Futrell}\end{tabular} & 487\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Study of the Whole Building Energy Use Inverse Modeling Performance through Support}\\\textcolor{ibpsared}{Vector Machine Regression}\\\textit{Shinwoo, Lee;  Juan Carlos, Baltazar}\end{tabular} & 494\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Water Treatment Technologies in Whole Building Energy and Water Models}\\\textit{Fred, Betz;  Sarah, Balz}\end{tabular} & 502\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Masterplanner: A Central Utility Plant Design and Optimization Tool}\\\textit{Te, Qi;  Pouya Rezazadeh, Kalehbasti}\end{tabular} & 510\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Lifting the Garage Door on Spawn, an Open-Source BEM-Controls Engine}\\\textit{Michael, Wetter  Kyle, Benne  Antoine, Gautier  Thierry S., Nouidui  Agnes, Ramle}\\\textit{ Amir, Roth  Hubertus, Tummescheit  Stuart, Mentzer  Christian, Winther}\end{tabular} & 518\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Development of Baseline Building Energy Models for the Advanced Occupant-Centric}\\\textcolor{ibpsared}{Building Control Research in the Various U.S. Climates}\\\textit{Zhihong, Pang;  Yan, Chen;  Jian, Zhang;  Zheng, O'Neill;  Yulong, Xie}\end{tabular} & 526\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Application of Deep Learning in Generating Desired Design Options: Experiments Using}\\\textcolor{ibpsared}{Synthetic Training Dataset}\\\textit{Zohreh, Shaghaghian;  Wei, Yan}\end{tabular} & 535\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Decentralized Approach to Multi-Zone Grey-Box Modeling for Model-Based Predictive}\\\textcolor{ibpsared}{Control}\\\textit{Jaewan, Joe;  Borui, Cui;  Piljae, Im;  Jin, Dong;  Kuruganti, Teja}\end{tabular} & 545\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Demand Response Assessment Tool: A Cloud-Based Simulation Tool for Rapid Assessment of}\\\textcolor{ibpsared}{Demand Response Potential in Commercial and Institutional Facilities}\\\textit{Benjamin, Futrell;  Madison, Wynn;  Eric, Tate;  Robert W., Cox}\end{tabular} & 552\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Comparing the Performance of Optimization Methods Used for Building Design and Optimal}\\\textcolor{ibpsared}{Control of Building Systems}\\\textit{Afshin, Faramarzi;  Parastoo, Delgoshaei;  Brent, Stephens;  Mohammad, Heidarinejad}\end{tabular} & 560\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Occupants' Comfort at Urban Scale: Analyzing Citizens' Opining Using Convolutional}\\\textcolor{ibpsared}{Neural Networks}\\\textit{Farzaneh, Zarei;  Mazdak, Nik-Bakht}\end{tabular} & 567\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Investigation of the Potential Benefits of Optimizing Building Element Placement Using}\\\textcolor{ibpsared}{Computational Fluid Dynamics}\\\textit{Nastaran, Shahmansouri  Rhys, Goldstein  Farhad, Javid  Alex, Tessier  Simon, Breslav}\\\textit{ Azam, Khan}\end{tabular} & 574\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{BIM-CFD Integrated Sustainable and Resilient Building Design for Northern Architecture}\\\textit{Muna, Younis;  Meseret T., Kahsay;  Girma T., Bitsuamlak}\end{tabular} & 584\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Large Scale Modelling of Wind Comfort and Safety Using 'Pedestrian Comfort Analysis' -}\\\textcolor{ibpsared}{A Cloud-Based App for Architects}\\\textit{Sandip, Jadhav;  Vijay, Mali;  Praveen Kumar, Ramachandran;  Chaitanya, Rane}\end{tabular} & 592\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Outdoor Thermal Comfort (OTC) in Human Interaction-Based Studies: An Overview of}\\\textcolor{ibpsared}{Reviews}\\\textit{Zahida, Khan;  Rahman, Azari;  Brent, Stephens}\end{tabular} & 600\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Integrating Layout Geometry with Architectural Requirements to Achieve}\\\textcolor{ibpsared}{Energy-Efficient Office Buildings in Egypt}\\\textit{Hebah, Moanis Hatem;  Mai, Alaaeldin Karram}\end{tabular} & 610\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Evaluation of Rammed Earth Assemblies as Thermal Mass Through Whole-Building}\\\textcolor{ibpsared}{Simulation}\\\textit{Pragya, Gupta;  Dana, Cupkova;  Lola, Ben-Alon;  Erica, Cochran Hameen}\end{tabular} & 618\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Education of Passive Systems in the US Architecture Schools: from the Conceptual Level}\\\textcolor{ibpsared}{to the Levels of Simulation and Calculation}\\\textit{Mehdi, Azizkhani}\end{tabular} & 626\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Parametric Sensitivity Study in Design of Double Skin Facades for Large Space}\\\textcolor{ibpsared}{Buildings in Cold Regions of China}\\\textit{Siyu, Cheng;  Gang, Liu}\end{tabular} & 634\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Using Parametric Simulation \& GIS to Design a Stormwater Solution for a Chinese}\\\textcolor{ibpsared}{Sponge City}\\\textit{Christopher, Drew;  Patrick, Keeney;  Xi, Yi}\end{tabular} & 642\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Data-Driven Local Area Energy Framework for Modeling Domestic Heat Electrification}\\\textit{Joey, Aoun;  Carlos, Calderón}\end{tabular} & 651\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Large Scale Post-Simulation Data Processing and Visualization for Building Energy}\\\textcolor{ibpsared}{Analysis}\\\textit{Junru, Shen;  Jeanie, Chan;  Andrea, Frisque}\end{tabular} & 660\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Extract Useful Information from Building Permits Data to Profile a City's Building}\\\textcolor{ibpsared}{Retrofit History}\\\textit{Wanni, Zhang;  Tianzhen, Hong;  Xuan, Luo}\end{tabular} & 667\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Urban-Scale Energy Modeling: Scaling Beyond Tax Assessor Data}\\\textit{Joshua, New;  Mark, Adams;  Eric, Garrison;  Brett, Bass;  Tianjing, Guo}\end{tabular} & 674
+\end{longtable}
+
+\end{document}

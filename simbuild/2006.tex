@@ -1,0 +1,72 @@
+\documentclass[10pt, twocolumn, letterpaper]{article}
+\usepackage[pass, margin=1in]{geometry} %one inch margins
+\usepackage{ibpsa} % defines look
+\usepackage{pslatex}
+\usepackage{achicago}
+\usepackage{amsmath, amssymb}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{ifthen}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{makecell}
+\usepackage{longtable}
+
+\pagestyle{empty}
+\setlength{\voffset}{-1.25in}
+\setlength{\headheight}{1in}
+\definecolor{ibpsared}{RGB}{224, 2, 1}
+
+\begin{document}
+
+\section*{Table of Contents}
+\thispagestyle{empty}
+
+\fancypagestyle{empty}{%
+  \fancyhf{}%
+  \vspace{0.5in}%
+  \fancyhead[L]{\includegraphics [height=0.7in] {images/ibpsa.jpg}}%
+  \fancyhead[R]{Proceedings of SimBuild Conference 2006\\2nd Conference of IBPSA-USA \\ Cambridge, Massachusetts \\ August 02-04, 2006}
+}
+
+\begin{longtable}{p{6in}r}
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Experience Testing EnergyPlus with the IEA HVAC BESTEST E300-E545 Series and IEA HVAC}\\\textcolor{ibpsared}{BESTEST Fuel-Fired Furnace Series}\\\textit{Michael J., Witte;  Robert H., Henninger;  Drury B., Crawley}\end{tabular} & 1\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Using EnergyPlus for California Title-24 Compliance Calculations}\\\textit{Joe, Huang;  Norman, Bourassa;  Fred, Buhl;  Ender, Erdem;  Rob, Hitchcock}\end{tabular} & 9\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Simulation Model for Energy Performance and User Comfort Evaluation of Atrium}\\\textcolor{ibpsared}{Buildings}\\\textit{Özgür, Göçer;  Aslıhan, Tavil;  Ertan, Özkan}\end{tabular} & 17\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Simulation of Double-Skin Facades for Hot and Humid Climate}\\\textit{Matthias, Haase;  Alex, Amato}\end{tabular} & 25\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{A Library of HVAC Component Models for Use in Automated Diagnostics}\\\textit{Peng, Xu;  Philip, Haves;  Dimitri, Curtil}\end{tabular} & 34\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Automated Multivariate Optimization Tool for Energy Analysis}\\\textit{Peter G., Ellis  Brent T., Griffith  Nicholas, Long  Paul, Torcellini  Drury, Crawley}\end{tabular} & 42\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{A Multiple-Building Optimization Scheme Based on Statistical Building-Load Models}\\\textit{Leslie K., Norford;  Hai-Yun, Xing}\end{tabular} & 49\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Implementation of an Earth Tube System into EnergyPlus Program}\\\textit{Kwang Ho, Lee;  Richard K., Strand}\end{tabular} & 58\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{The Simulation of a Renewable-Energy-Powered Hydrogen-Based Residential Electricity}\\\textcolor{ibpsared}{System}\\\textit{Ian, Beausoleil-Morrison  Maria, Mottillo  Alex, Ferguson  Hajo, Ribberink}\\\textit{ Libing, Yang  Kamel, Haddad}\end{tabular} & 67\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Methodology for Analyzing the Technical Potential for Energy Performance in the U.S.}\\\textcolor{ibpsared}{Commercial Buildings Sector with Detailed Energy Modeling}\\\textit{Brent, Griffith;  Drury, Crawley}\end{tabular} & 75\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{A Scenario Analysis of Retrofit Strategies for Reducing Energy Consumption in}\\\textcolor{ibpsared}{Norwegian Office Buildings}\\\textit{Lisa A., Engblom;  Leon R., Glicksman;  Leslie K., Norford}\end{tabular} & 82\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Evaluation of Demand Shifting Strategies with Thermal Mass in Two Large Commercial}\\\textcolor{ibpsared}{Buildings}\\\textit{Peng, Xu}\end{tabular} & 91\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Development of Methods for Determining Demand-Limiting Setpoint Trajectories in}\\\textcolor{ibpsared}{Commercial Buildings Using Short-Term Data Analysis}\\\textit{Kyoung-ho, Lee;  James, Braun}\end{tabular} & 99\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Evaluation of Methods for Determining Demand-Limiting Setpoint Trajectories in}\\\textcolor{ibpsared}{Commercial Buildings Using Short-Term Data Analysis}\\\textit{Kyoung-ho, Lee;  James, Braun}\end{tabular} & 107\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{A Statistics-Based Method for Hourly Solar Radiation Estimation}\\\textit{Huang, Zhizhong; Pan, Yiqun}\end{tabular} & 115\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{A Calibrated Computer Model for the Thermal Simulation of Courtyard Microclimates}\\\textit{Amr, Bagneid;  Jeffrey, Haberl}\end{tabular} & 121\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Performance of High-Performance Glazing in IECC Compliant Building Simulation Model}\\\textit{Jaya, Mukhopadhyay;  Jeff S., Haberl}\end{tabular} & 129\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Evaluating Fenestration Products for Zero-Energy Buildings: Issues for Discussion}\\\textit{Dariush, Arasteh  Charlie, Curcija  Joe, Huang  Charlie, Huizenga  Christian, Kohler}\end{tabular} & 140\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Energy Simulation of a Double Skin Facade: A Process Using CFD and EnergyPlus}\\\textit{Alexandra (Aleka), Pappas;  Zhiqiang (John), Zhai}\end{tabular} & 145\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{A Model for Naturally Ventilated Cavities on the Exteriors of Opaque Building Thermal}\\\textcolor{ibpsared}{Envelopes}\\\textit{Brent, Griffith}\end{tabular} & 153\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Analysis Process for Designing Double Skin Facades and Associated Case Study}\\\textit{Ian, Doebber;  Maurya, McClintock}\end{tabular} & 160\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Building as a Learning Tool: Facility Management and Simulation in the Classroom}\\\textit{Steve, Morlino;  Rodney, Williams;  Edward, Brzezowski}\end{tabular} & 168\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Using Simulation Tools in a University Laboratory Course: Assessing the Performance of}\\\textcolor{ibpsared}{a Health-Care Center in Lusaka, Zambia}\\\textit{Leslie K., Norford}\end{tabular} & 174\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{The Energy Performance of the Cold-Formed Steel-Frame and Wood-Frame Houses Developed}\\\textcolor{ibpsared}{for Thailand}\\\textit{Prechaya, Mahattanatawe;  Charunpat, Puvanant;  Darunee, Mongkolsawat}\end{tabular} & 183\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Low Energy Cooling Technologies for Sub-Tropical/Warm Humid Climate Building Systems}\\\textit{Ashfaque Ahmed, Chowdhury;  Mohammad Golam, Rasul;  Mohammad Masud Kamal, Khan}\end{tabular} & 191\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{An Analysis of Building Envelope Upgrades for Residential Energy Efficiency in Hot and}\\\textcolor{ibpsared}{Humid Climates}\\\textit{Mini, Malhotra;  Jeff, Haberl}\end{tabular} & 200\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Whole-House Energy Analysis Procedures for Existing Homes}\\\textit{Robert, Hendron}\end{tabular} & 210\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Validation of a Multi-Zone Model with Integrated Energy Equation and Impact of Thermal}\\\textcolor{ibpsared}{Mass Modeling Methodology}\\\textit{Jinchao, Yuan;  Leon R., Glicksman}\end{tabular} & 220\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Advances on the Coupling Between a Commercial CFD Package and a Component-Based}\\\textcolor{ibpsared}{Simulation Program}\\\textit{Diego, Arias}\end{tabular} & 231\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Radiant Slab Cooling: A Case Study of Building Energy Performance}\\\textit{Zhen, Tian;  James A., Love}\end{tabular} & 238\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Radiant Slab Cooling: A Field Study of Occupant Thermal Comfort}\\\textit{Zhen, Tian;  James A., Love}\end{tabular} & 245\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{The Application of Building Energy Simulation and Calibration in Two High-Rise}\\\textcolor{ibpsared}{Commercial Buildings in Shanghai}\\\textit{Yiqun, Pan;  Zhizhong, Huang;  Gang, Wu;  Chen, Chen}\end{tabular} & 252\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Modelica Versus TRNSYS - A Comparison Between an Equation-Based and a Procedural}\\\textcolor{ibpsared}{Modeling Language for Building Energy Simulation}\\\textit{Michael, Wetter;  Christoph, Haugstetter}\end{tabular} & 262\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{The MIT Design Advisor - A Fast, Simple Tool for Energy Efficient Building Design}\\\textit{Bryan, Urban;  Leon, Glicksman}\end{tabular} & 270\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Qualitative Archi Bond Graphs for Building Simulation of People Behaviour and Energy}\\\textcolor{ibpsared}{Variation}\\\textit{Jerry Jen-Hung, Tsai;  John S., Gero}\end{tabular} & 277\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Using Video for Analyzing Daylight Simulation Tools}\\\textit{Daniel C., Glaser;  F. Whitney, Smith;  Barb, Cutler}\end{tabular} & 285\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{IFC to CONTAM Translator}\\\textit{Mangesh, Basarkar;  Muthusamy, Swami}\end{tabular} & 293\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Natural Ventilation Measurements and Simulation at Two Milwaukee Nature Centers}\\\textit{David E., Bradley;  D. Michael, Utzinger}\end{tabular} & 302
+\end{longtable}
+
+\end{document}
