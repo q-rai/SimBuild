@@ -1,0 +1,79 @@
+\documentclass[10pt, twocolumn, letterpaper]{article}
+\usepackage[pass, margin=1in]{geometry} %one inch margins
+\usepackage{ibpsa} % defines look
+\usepackage{pslatex}
+\usepackage{achicago}
+\usepackage{amsmath, amssymb}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{ifthen}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{makecell}
+\usepackage{longtable}
+
+\pagestyle{empty}
+\setlength{\voffset}{-1.25in}
+\setlength{\headheight}{1in}
+\definecolor{ibpsared}{RGB}{224, 2, 1}
+\definecolor{headergray}{gray}{0.4}
+
+\begin{document}
+
+\section*{Table of Contents}
+\thispagestyle{empty}
+
+\fancypagestyle{empty}{%
+  \fancyhf{}%
+  \vspace{0.5in}%
+  \fancyhead[L]{\includegraphics [height=0.7in] {images/logo_new.jpg}}%
+  \fancyhead[R]{\textcolor{headergray}{2022 Building Performance Analysis Conference and SimBuild \\co-organized by ASHRAE and IBPSA-USA  \\ Chicago, Illinois \\ September 14--16, 2022}}
+}
+
+\begin{longtable}{p{6in}r}
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Using Illuminance Ranges and Target Areas to Analyze Daylight in Multi-Dwelling Units}\\\textit{Guanzhou Ji;  Azadeh Sawyer}\end{tabular} & 1\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Speeding up Annual Daylighting Simulation Using NumPy}\\\textit{Nathaniel Jones}\end{tabular} & 11\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Energy and Daylight Simulation Analysis of an Innovative Horizontal Skylight System}\\\textcolor{ibpsared}{Incorporating a Bi-directional Scattering Distribution Function (BSDF) Prismatic Optical Layer}\\\textit{Mohammad Salamati;  Wayne Place;  Curtis Fentress;  Masoome Haghani}\end{tabular} & 20\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Building Envelope Optimization for Future Climatic Demands by Simple-Box Model Energy}\\\textcolor{ibpsared}{Simulation}\\\textit{Mitra Azimi;  Juan Carlos Baltazar}\end{tabular} & 29\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Development of a Battery Capacity Sizing Tool for Optimal Sizing of Residential-Scale}\\\textcolor{ibpsared}{Backup and Microgrid Systems}\\\textit{Maya Hazarika;  Kate Bren;  Charles Upshaw}\end{tabular} & 37\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Multi-scenario Extreme Weather Simulator Application to Heat Waves}\\\textit{Daniel Villa;  Juan Carvallo;  Carlo Bianchi;  Sang Lee}\end{tabular} & 49\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Evaluation of the Thermal Resilience of a Community Hub}\\\textit{Aylin Ozkan;  Joel Good}\end{tabular} & 59\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Numerical Investigation of Thermal Comfort of a Thermally Active Student Desk (TASD)}\\\textcolor{ibpsared}{in a Virtual Domain of Historic S.R. Crown Hall Building}\\\textit{Lobna Mitkees;  Mohammad Heidarinejad;  Brent Stephens}\end{tabular} & 67\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{A Computational Fluid Dynamics Model for the Assessment of SARS-CoV-2 Aerosol}\\\textcolor{ibpsared}{Dispersion inside a Grocery Store}\\\textit{Mingkan Zhang  Prateek Shrestha  Xiaobing Liu  Jason Degraw  Dustin Schafer}\\\textit{ Nathan Love}\end{tabular} & 76\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Using CFD Model to Assist Safe Evacuation Analysis and Means of Egress Evaluation in}\\\textcolor{ibpsared}{Adaptive Re-use of Historical Large-space Building}\\\textit{Xiaolei Chen}\end{tabular} & 95\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Simulation-based Control of Natural Ventilation with Operable Windows: Transformation}\\\textcolor{ibpsared}{from Predictive Control into Reinforcement Learning Control}\\\textit{Wei Zhang;  Ali Malkawi}\end{tabular} & 113\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Direct Integration of Flexible Photovoltaic with the Wall: A Simulation Approach to}\\\textcolor{ibpsared}{Determine Panel Performance}\\\textit{Dariusz Heim;  Anna Wieprzkowicz;  Dominika Knera}\end{tabular} & 126\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Performance of Energy Activated ETICS Applied in the Urban Environment of Street}\\\textcolor{ibpsared}{Canyons}\\\textit{Dominika Knera;  Dariusz Heim;  Anna Wieprzkowicz}\end{tabular} & 134\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Large Scale Simulation to Investigate the Residential Envelope Trade-offs for}\\\textcolor{ibpsared}{High-Efficiency Equipment and Renewables Based on 2021 IECC}\\\textit{Victor Salcido  Yan Chen  Zachary Taylor  Yulong Xie  Benjamin Taube}\\\textit{ Michael Rosenberg}\end{tabular} & 142\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Improving Residential Building Simulations Through Large-Scale Empirical Validation}\\\textit{Benjamin Park;  Scott Horowitz;  Noel Merket;  Dave Roberts}\end{tabular} & 150\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Predicting Building Envelope Construction from In-Situ Thermal Testing}\\\textit{Tyler Pilet;  Tarek Rakha}\end{tabular} & 158\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{The Evaluation of a New Daylighting System's Energy Performance: Reversible}\\\textcolor{ibpsared}{Daylighting System (RDS)}\\\textit{Masoome Haghani;  Behrouz Mohammadkari;  Rima Fayaz}\end{tabular} & 165\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Using Measured Building Energy Data to Infer Building Characteristics for Urban}\\\textcolor{ibpsared}{Building Energy Modeling}\\\textit{Brett Bass;  Evan Ezell;  Joshua New}\end{tabular} & 173\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Data-Driven Machine Learning Model Performance of Real Annual Natural Gas Consumption}\\\textcolor{ibpsared}{in Residential Buildings}\\\textit{Matthias Van Hove;  Marc Delghust;  Jelle Laverge}\end{tabular} & 181\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Derivation of Comparative Variables for Energy Model Calibration Using a Data-driven}\\\textcolor{ibpsared}{method}\\\textit{Hye Kim;  Sun Kim}\end{tabular} & 189\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Infomorphism: An Urban Planning Framework for Local Renewable Energy Integration}\\\textit{Fengqi Li;  Kristen Schell;  Haolin Yang;  Alexandros Tsamis}\end{tabular} & 197\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Optimal Sizing of Integrated Community Energy Systems Considering Equity Constraints}\\\textit{Christoph Gehbauer;  Yulun Wu;  James Brown;  Michael Sohn}\end{tabular} & 209\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Evaluating the Impacts of Weather Forecast Inaccuracy on Performance of Model}\\\textcolor{ibpsared}{Predictive Control for Dynamic Facades}\\\textit{Peter Grant;  Christoph Gehbauer}\end{tabular} & 217\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Incipient Sensor Fault Impacts on Building Performance Through HVAC Controls: A Pilot}\\\textcolor{ibpsared}{Study}\\\textit{Yanfei Li;  Yeobeom Yoon;  Yeonjin Bae;  Piljae Im;  Sangkeun Lee}\end{tabular} & 225\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Evaluating the Performance of Chiller Plant Efficiency Using Random Forest Model: A}\\\textcolor{ibpsared}{High-Rise Building Case Study}\\\textit{Behzad Rizi  Mohammad Heidarinejad  Gregory Pavlak  Vincent Cushing  William Hederman}\end{tabular} & 234\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Potential Heating Energy and Cost Savings of Dual Fuel Heat Pump Controls as a}\\\textcolor{ibpsared}{Residential Building Equipment Retrofit in the U.S}\\\textit{Yeobeom Yoon;  Yanfei Li;  Piljae Im;  James Lyons}\end{tabular} & 243\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Development of Demand Response Control Schedules of Heat Pump Water Heaters for}\\\textcolor{ibpsared}{California Residential Code Compliance}\\\textit{Aaron Boranian  Ben Larson  Bruce Wilcox  Paul Kintner  Neal Kruis  Charles Barnaby}\\\textit{ Scott Criswell}\end{tabular} & 251\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Algae Bio-reactive Building Envelope: Dynamic Lighting and Energy Aspects for}\\\textcolor{ibpsared}{Algaebased Building Skin}\\\textit{Jingshi Jingshi}\end{tabular} & 269\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Modeling, Simulation and Evaluation of a Double-Sided Hydronic Layer Embedded Opaque}\\\textcolor{ibpsared}{Climate-Adaptive Building Envelope}\\\textit{Youngjin Hwang  Amogh Wasti  Theodorian Borca-Tasciuc  Justin Shultz  Luigi Vanfretti}\\\textit{ Alexandros Tsamis}\end{tabular} & 278\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Validation of IFC-based Geometric Input for Building Energy Performance Simulation}\\\textit{Veronika Richter  Avichal Malhotra  Eric Fichter  Anna Hochberger  Jérôme Frisch}\\\textit{ Christoph Van Treeck}\end{tabular} & 287\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Operational Carbon Emission Factor Literature Review}\\\textit{Nathan Vader}\end{tabular} & 298\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Heuristic Urban-scale Life Cycle Assessment of Districts to Determine Their Carbon}\\\textcolor{ibpsared}{Footprints}\\\textit{Maximilian Schildt  Johannes Cuypers  Avichal Malhotra  Maxim Shamovich}\\\textit{ Jérôme Frisch  Christoph Van Treeck}\end{tabular} & 309\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Realistic Estimation of CO₂ Emission Reductions Due to Building Retrofit}\\\textit{Yingli Lou;  Yunyang Ye;  Wangda Zuo;  Yizhi Yang}\end{tabular} & 318\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{A Life Cycle Decarbonization of Modular Building Solutions}\\\textit{Noah Klammer  Zoe Kaufman  Ankur Podder  Shanti Pless  David Celano  Stacey Rothgeb}\end{tabular} & 326\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Development of an Occupancy Schedule for OpenStudio Prototype College Building Model}\\\textit{Yeonjin Bae;  Yeobeom Yoon;  Sungkyun Jung;  Mini Malholtra;  Piljae Im}\end{tabular} & 348\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{ASHRAE Standard 140 Weather Drivers Test Suite: Results Analysis}\\\textit{Timothy Mcdowell;  Ralph Muehleisen}\end{tabular} & 356\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Comparison of a Variable Refrigerant Flow Heat Pump Model in Cooling Mode to Data from}\\\textcolor{ibpsared}{ASHRAE HQ}\\\textit{Aziz Mbaye;  Massimo Cimmino}\end{tabular} & 366\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Data Center Chiller Plant: Simulation-based Comparative Control Design Case Study}\\\textit{Milica Grahovac;  Paul Ehrlich;  Jianjun Hu;  Michael Wetter}\end{tabular} & 373\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{An Automated Approach for Quality Checking Early Design Phase Building Energy Models}\\\textit{Brett Horin}\end{tabular} & 382\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Reflections on the Adoption of Building Performance Simulation in Architectural}\\\textcolor{ibpsared}{Education}\\\textit{Jonathan Bean}\end{tabular} & 390\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{From Plug Loads to Breaker: Sub-metering a Cross Laminated Timber Building to}\\\textcolor{ibpsared}{Calibrate an OpenStudio Model}\\\textit{Gabriel Flechas;  Paulo Tabares-Velasco;  Gabe Fierro}\end{tabular} & 396\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Empirical Validation of Whole Building Energy Simulation Program under Free-Floating}\\\textcolor{ibpsared}{Conditions}\\\textit{Hyojin Kim  Elizabeth Scacifero  Minkyeong Park  Piljae Im  Lisa Ng  Brian Dougherty}\\\textit{ Vance Payne}\end{tabular} & 406\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Operating and Certifying a Net Positive Energy Building During a Pandemic}\\\textit{Jung-Ho Lewe  Sehwan Oh  Efe Yarbasi  Hyun-Woo Kim  Joshua Brooks  Scott Duncan}\\\textit{ Sungil Hong  Yoon-Jun Jung  Ramana Koti}\end{tabular} & 414\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Decision Support Framework for the Retrofit of Public Buildings for Energy and Carbon}\\\textcolor{ibpsared}{Reduction}\\\textit{Rashmi Baliga;  David Gilles}\end{tabular} & 424
+\end{longtable}
+
+\end{document}
