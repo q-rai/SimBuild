@@ -1,0 +1,115 @@
+\documentclass[10pt, twocolumn, letterpaper]{article}
+\usepackage[pass, margin=1in]{geometry} %one inch margins
+\usepackage{ibpsa} % defines look
+\usepackage{pslatex}
+\usepackage{achicago}
+\usepackage{amsmath, amssymb}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{ifthen}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{makecell}
+\usepackage{longtable}
+
+\pagestyle{empty}
+\setlength{\voffset}{-1.25in}
+\setlength{\headheight}{1in}
+\definecolor{ibpsared}{RGB}{224, 2, 1}
+\definecolor{headergray}{gray}{0.4}
+
+\begin{document}
+
+\section*{Table of Contents}
+\thispagestyle{empty}
+
+\fancypagestyle{empty}{%
+  \fancyhf{}%
+  \vspace{0.5in}%
+  \fancyhead[L]{\includegraphics [height=0.7in] {images/ibpsa.jpg}}%
+  \fancyhead[R]{Proceedings of SimBuild Conference 2026\\12th National Conference of IBPSA-USA \\ Minneapolis, Minnesota \\ May 20--22, 2026}
+}
+
+\begin{longtable}{p{6in}r}
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{High-Fidelity Building Emulator for Integrated Comfort and Energy Analysis using}\\\textcolor{ibpsared}{EnergyPlus and Radiance}\\\textit{Yu Tammie; Wang Taoning; Gehbauer Christoph}\end{tabular} & 1\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Simulating the Impact of Photovoltaic Cell Temperature on Electricity Production under}\\\textcolor{ibpsared}{Various Global Climates}\\\textit{Wu Chengde}\end{tabular} & 9\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Optimized Control for Integrated Photovoltaic and Water Distribution System}\\\textcolor{ibpsared}{Applications}\\\textit{Kurtz Nathan (12); Ganesh Viswanathan; Marucci Leah; Zuo Wangda (13)}\end{tabular} & 20\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Experimental Demonstration of a Self-Powered Dynamic Façade Using Thermoelectric–PCM}\\\textcolor{ibpsared}{Integration}\\\textit{Mohajerzadeh Zia; Elmi Mohammad; Nozariasbmarz Amin; Wang Julian; Azari Rahman}\end{tabular} & 31\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Wet-Bulb Temperature Performance Maps for Chiller-Water Side Economizer Plants:}\\\textcolor{ibpsared}{Guiding Multi-Sequence Control Strategies}\\\textit{Ganesh Viswanathan; Li Hongjun; Ho Julia; Zuo Wangda (12)}\end{tabular} & 39\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Development of a Hybrid Simulation Platform for Training and Evaluation of}\\\textcolor{ibpsared}{Reinforcement Learning Algorithms for Commercial Buildings}\\\textit{Guo Fangzhou; Shen Yang; Ham Sang woo; Kim Donghun}\end{tabular} & 48\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{A Framework for Generating and Simulating Prototype Energy Models of U.S. Data Centers}\\\textcolor{ibpsared}{at National Scale}\\\textit{Li Hang; Chowdhury Shovan; Singh Vivek; New Joshua}\end{tabular} & 56\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Numerical Simulation of Heat Transfer in an Un-Conditioned Underground Building:}\\\textcolor{ibpsared}{Spatiotemporal Variation of Indoor Surface Heat Transfer Coefficient}\\\textit{Sena Sanjaya; Goyal Rahul; Tyagi S. K.}\end{tabular} & 65\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Economizer Scoring Framework for AHU Performance Assessment}\\\textit{Yu Min Gyung Schad Alexander Johnson Stephanie Goddard James Yoder Tim Duan Xiaoli}\\\textit{Salsbury Timothy}\end{tabular} & 80\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Profiling Building Demand Flexibility for Out-of-Scenario Transferability Using}\\\textcolor{ibpsared}{Frequency-Domain Decomposition}\\\textit{Xie Kexin; Rovas Dimitrios; Tang Rui}\end{tabular} & 89\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Development of Residential Archetypes to Predict Indoor Temperatures of Vulnerable}\\\textcolor{ibpsared}{Homes}\\\textit{Passe Ulrike; Sharifi Kimia}\end{tabular} & 100\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{A Physiologically-Informed Visual Field Method for Assessing Space View Quality}\\\textit{Chu Yingnan; Samuelson Holly; Song Yehao}\end{tabular} & 110\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Phase Change Material Integration in Building Energy Simulation Using OpenStudio}\\\textcolor{ibpsared}{Measures and Python Library}\\\textit{Uddin Meftah; Khanna Sanjeev}\end{tabular} & 122\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Experience in Motion: Scalable, Sequential Urban Microclimates Simulations for Visual}\\\textcolor{ibpsared}{and Thermal Comfort}\\\textit{Wang Yiqing; Zhu Lujia; Ang Yu Qian}\end{tabular} & 132\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Solar-Hydrogen Building Skins: Validating Simulations through Experimentation}\\\textit{Zhang Jingshi; Azari Rahman; Poerschke Ute}\end{tabular} & 142\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{From Data to Dialogue: A Visual Framework for Interpreting fTMY Future Weather Data in}\\\textcolor{ibpsared}{Climate-Responsive Design}\\\textit{Li Jiewei; Hoffman Elaine}\end{tabular} & 150\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Evaluating the Impact of Indoor Hydroponic Systems on Students’ Well-being in High}\\\textcolor{ibpsared}{School Classrooms}\\\textit{Ying Albert; Arsano Alpha}\end{tabular} & 160\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{An Impulse-based Fluid Dynamics for Fast Indoor Airflow Simulation}\\\textit{Lee Woohyoung; Faulkner Cary; Zuo Wangda (13)}\end{tabular} & 171\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{More Than a Label: Modeling Modern Heat Pump Performance Beyond Seasonal Efficiency}\\\textcolor{ibpsared}{Ratings}\\\textit{Kruis Neal; Oliver Nathan}\end{tabular} & 182\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Towards Open-Source Simulation Models for Flexible and Self-Sufficient Energy Hubs}\\\textit{Davari Malihe; Fitó Jaume; Ramousse Julien; Hinkelman Kathryn}\end{tabular} & 193\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Simulation Tool For The Configuration And Control Design Of Central Plant Heat}\\\textcolor{ibpsared}{Recovery Heat Pump Retrofits}\\\textit{Excell Lauren (12); Ham Sang woo; Kim Donghun}\end{tabular} & 205\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Overheating in Residential Buildings in the United States}\\\textit{Hampo Chima; Schinasi Leah H.; Hoque Simi}\end{tabular} & 216\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Validating the Electric Dream: Comparison of Modeled and Measured Performance of a}\\\textcolor{ibpsared}{High-Efficiency, All-Electric Residential Retrofit in Los Angeles, California}\\\textit{Konis Kyle}\end{tabular} & 227\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{System Identification for a Building Thermal Model from Observational Data in the}\\\textcolor{ibpsared}{Presence of Unmeasured Disturbances}\\\textit{Ham Sang woo; Kim Donghun}\end{tabular} & 239\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Eppy-LLM: An Agentic Workflow for Language-Driven Building Energy Modeling And}\\\textcolor{ibpsared}{Optimization Using EnergyPlus}\\\textit{Zhou Huiwen; Zhang Liang}\end{tabular} & 251\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Eplusout Model Context Protocol (MCP): Large Language Model (LLM)-Enabled Simulation}\\\textcolor{ibpsared}{Results}\\\textit{Sweeney Michael; Meyer Ryan; Goel Supriya}\end{tabular} & 263\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{LLM-Informed Efficient Bayesian Calibration of Building Energy Simulation Models under}\\\textcolor{ibpsared}{Limited Data}\\\textit{Bai Yangxi; Wang Endong}\end{tabular} & 275\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Control-Oriented Prototype Energy Model for Data Centers}\\\textit{Li Hongjun; Huang Sen; Zuo Wangda (13)}\end{tabular} & 287\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Reduced Order Building Hydronic Models in Ambient Temperature Thermal Energy Networks}\\\textcolor{ibpsared}{for Improved Computational Efficiency}\\\textit{Ho Julia; Wang Jing; Jin Xin; Zuo Wangda (12)}\end{tabular} & 296\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Applying Frequency Domain Methods for Calculating Outdoor Surface Temperatures.}\\\textit{Beckett Owen; Owens Sam; Acred Andy}\end{tabular} & 308\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Audit Template: A Modular, Interoperable Web-Based Platform for Building Energy Audits}\\\textcolor{ibpsared}{and Retrofit Planning}\\\textit{Goel Supriya; Foucher Simon; Eswaran Sudha; Mo Kefei; Barajas Juan; Chhabra Jayati}\end{tabular} & 316\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Principal Variate Selection Approach for LSTM Building Load Forecasting}\\\textit{Yu Huawei; Ye Yunyang; Xu Jiuyi; Shi Yangming}\end{tabular} & 327\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Updating Plug Loads and Operational Schedules for California Energy Code Compliance}\\\textit{Contoyannis Dimitri Achong Gypsy Athalye Rahul Vonder Kuhlen Demian Datey Aboli}\\\textit{Gowri Krishnan (5)}\end{tabular} & 339\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{A Comprehensive Review of Meta-Learning Applications in Building Domain}\\\textit{Sui Jiyuan; Adhikari Rosina; Sitzabee William; Zuo Wangda (12)}\end{tabular} & 349\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Specialized Weather Data Files for Evaluating Thermal Safety and Grid Reliability}\\\textcolor{ibpsared}{Applications}\\\textit{Singh Manan; Franconi Ellen; Nambiar Chitra}\end{tabular} & 361\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Combining Generative Modeling and Advanced Control for Building Scenario Generation}\\\textit{Wald Dylan; El Kontar Rawad; Vaidhynathan Deepthi}\end{tabular} & 373\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Development of New Occupancy Schedules and Occupant-Centric Control Strategy for}\\\textcolor{ibpsared}{Residential Buildings}\\\textit{Kim Ryunhee; Faulkner Cary; Chen Yan; Ye Yunyang}\end{tabular} & 381\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Exploring the Interplay Between Window Design and External Views on Window-Opening}\\\textcolor{ibpsared}{Preferences in Educational Settings}\\\textit{Momenaei Atousa; Rempel Alexandra; Rockcastle Siobhan}\end{tabular} & 389\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Calendars of the City: Deterministic Schedule Libraries to Enhance UBEM Load Duration}\\\textcolor{ibpsared}{Forecasts}\\\textit{Li Chengxuan; Dogan Timur}\end{tabular} & 401\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Quantitative Model of Building Energy Performance due to Wind-Induced Envelope Damage}\\\textit{Alhayik Imad; Sharston Ryan; Subgranon Arthriya; Ou Ge}\end{tabular} & 413\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Co-design Optimal Sizing and Control Framework to Balance Cost and Resilience}\\\textit{Flores Garcia Juan Diego; Liu Boming; Huang Sen; Zuo Wangda}\end{tabular} & 425\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Parametric Energy and Cost Optimization for Courthouse Portfolios in California}\\\textit{Brannon Benjamin; Brink Holly; Kiyono Arata}\end{tabular} & 435\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Balancing Energy Efficiency and Overheating Risks: Optimal Retrofit Pathways for}\\\textcolor{ibpsared}{Baltimore Rowhouses}\\\textit{Adhikari Rosina; Gandara Genevieve I.; Sui Jiyuan; Zuo Wangda (13)}\end{tabular} & 444\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Towards a Robust Approach for Simulating Thermal Resilience in Architectural Design: A}\\\textcolor{ibpsared}{literature review and benchmarking test in all US climate zones}\\\textit{Liang Ruiyang; Dogan Timur}\end{tabular} & 454\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Explainable AI and Machine Learning for Transparent Building Energy Benchmarking and}\\\textcolor{ibpsared}{Retrofit Decisions}\\\textit{Jain Milan; Goel Supriya; Lei Xuechen}\end{tabular} & 466\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Evaluating Prompt Engineering in Large Language Models (LLMs) for Transforming}\\\textcolor{ibpsared}{Occupant Behavior Modeling}\\\textit{Li Shundong; Ma Nan}\end{tabular} & 478\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Forecasting space heating flexibility: Comparing Measured Dwelling Cool-Down Rates}\\\textcolor{ibpsared}{with Dynamic Thermal Simulation}\\\textit{Townsend Jordan; Crawley Jenny; Beizaee Arash; Allinson David}\end{tabular} & 490\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Improving Thermal Resilience And Energy Efficiency Using Cool Building Envelope}\\\textcolor{ibpsared}{Materials}\\\textit{Amiri Ahmad Shoaib (12); Jandaghian Zahra; Gaur Abhishek}\end{tabular} & 501\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Scalable, Modular Resilience Hubs}\\\textit{Villa Daniel L.; Quiroz Jimmy E.; Mammoli Andrea; Farm Kyle Elama}\end{tabular} & 515\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{A High Throughput Framework for Large Scale Building Energy Simulation: From Real-Time}\\\textcolor{ibpsared}{Alerts to AI-Ready Surrogates}\\\textit{Muralidharan Vishal; Passe Ulrike; Ganapathysubramanian Baskar}\end{tabular} & 527\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Probabilistic Modeling Approach for Estimating Rent Impacts of Energy Retrofits}\\\textit{Jain Milan; Nambiar Chitra; Rackley Adrienne; Meyer Ryan}\end{tabular} & 538\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Thermal Performance Optimization of Battery Energy Storage Enclosure for South Pole}\\\textcolor{ibpsared}{Applications}\\\textit{Kim Ji-Hyun {Jeannie}; Zeng Zhaoyun; Muehleisen Ralph T.; Bender Amy N.}\end{tabular} & 550\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Adding Timeseries Acceptance Criteria to ASHRAE Standard 140}\\\textit{McDowell Timothy; Muehleisen Ralph; Glazer Jason}\end{tabular} & 559\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Digital Twins for Building Energy Modeling: Balancing Level of Detail, Data}\\\textcolor{ibpsared}{Resolution, and Model Accuracy}\\\textit{Chatzivasileiadi Aikaterini Demir Dilsiz Aysegul Lannon Simon Denzer Anthony}\\\textit{Macy Luke BK Satish Perisoglou Emmanouil Jafar Rawan Haddad Kamal Qaed Abeer}\end{tabular} & 570\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{A Systematic Approach for a Typological Analysis of African Residential Building Stock}\\\textcolor{ibpsared}{Across Multiple Climates}\\\textit{Arsano Alpha Yacob; Beyene Ermias Tessema; Molnar Elisabeth}\end{tabular} & 583\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Novel pair-wise Comparison Methodology for the Validation of Analytical Building}\\\textcolor{ibpsared}{Performance Modelling}\\\textit{Arsano Alpha Yacob; Chu Colin}\end{tabular} & 596\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{A Case Study on Staging Mixed-Age Computer Room Air Conditioning Systems Considering}\\\textcolor{ibpsared}{Performance Degradation}\\\textit{Maloney Michael; Ganesh Viswanathan; Zuo Wangda (12)}\end{tabular} & 606\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Exploring a Julia-based Toolchain for HVAC Innovation: Simulation-based Optimization}\\\textcolor{ibpsared}{Case Study of a Dedicated Outdoor Air System with a Desiccant Wheel}\\\textit{Song Ruizhi; Liu Mingzhe; Yang Zhiyao; O'Neill Zheng}\end{tabular} & 618\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{EBuild AI: A Retrieval-Augmented Framework for Generating Global, Simulation-Ready}\\\textcolor{ibpsared}{Urban Building Datasets}\\\textit{Almaian Maryam; Elkontar Rawad; Alkubaisi Noof; Kastner Patrick}\end{tabular} & 629\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{AI-Based Metric for Building and Grid Reliability Assessment via Input Propagation and}\\\textcolor{ibpsared}{Stress Testing}\\\textit{El Kontar Rawad Almaian Maryam Clarke Ardelia Kastner Patrick Ferrall-Wolf Isa}\\\textit{Tuttle Robin King Ryan}\end{tabular} & 638\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Bridging Intent and Iteration: An Open Framework for LLM‑Directed BEM Optimization at}\\\textcolor{ibpsared}{Scale}\\\textit{ElSayed Mo; Shultz Justin}\end{tabular} & 650\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Integration and Implementation Verification of Air-to-Water Heat Pump Models for}\\\textcolor{ibpsared}{California’s Title 24 Compliance Software}\\\textit{Dabbagh Mohammad Mirian Nasim Shadd Eric Arent John Athalye Rahul}\\\textit{Vonder Kuhlen Demian Kapur Nikhil Wichert RJ}\end{tabular} & 662\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Enhancing EnergyPlus to Model the Time Independent Energy Recovery (TIER) System for}\\\textcolor{ibpsared}{Load Management and Code Compliance}\\\textit{Xu Yujie; Wang Shaojie; Sultan Sara; Gowri Krishnan; Boyce Bryan; Hong Tianzhen}\end{tabular} & 673\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Net Zero as Climate Resilience: Rethinking Net Zero Energy Building Performance Under}\\\textcolor{ibpsared}{Future Climate Change}\\\textit{Renner Riley; Ross Wyatt; Webb Amanda}\end{tabular} & 683\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Framework for Modeling 3D-Printed Concrete Construction to Assess Energy Efficiency}\\\textcolor{ibpsared}{and Backup Power Trade-offs in a Mixed-Use, New Construction Neighborhood Development}\\\textit{Ramaraj Sugirdhalakshmi El Kontar Rawad Dunham Hallie Seward Margaux Polly Ben}\\\textit{Pedi-Smith Selina}\end{tabular} & 694\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{DARA: A Life Cycle Assessment Tool for Early-Stage Small-Scale Residential Design}\\\textcolor{ibpsared}{Decisions}\\\textit{Savage Chris Moroseos Teresa Miwatani-Minter Bearach Meek Chris Burpee Heather}\\\textit{Sami Vikram}\end{tabular} & 706\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{BEMEval-Doc2Schema: Benchmarking Large Language Models for Structured Data Extraction}\\\textcolor{ibpsared}{in Building Energy Modeling}\\\textit{Jia Yiyuan; Fu Xiaoqin; Zhang Liang}\end{tabular} & 718\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Deep Learning Methods for Building Energy Benchmarking of Commercial Buildings}\\\textit{Chintala Rohit; Chinde Venkatesh; Kim Janghyun; Xiong Jie; Chapin Alex; Ball Brian}\end{tabular} & 730\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Validating Daylight, View, and Privacy Metrics through In-Situ Experiments in NYC}\\\textcolor{ibpsared}{Residential Units}\\\textit{Kim Jaeha; Kral Katharina; Dogan Timur}\end{tabular} & 740\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Efficient Residential Energy Model Calibration for Field Audits: Targeted Parameter}\\\textcolor{ibpsared}{Optimization Using OpenStudio and GenOpt}\\\textit{Abdalla Ahmed Saber; Supriyatno Alessandro; Abdelsalam Mohamed; Pudleiner David}\end{tabular} & 752\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Simulation-Based Validation of An Open-Source, Scalable Framework for Building Energy}\\\textcolor{ibpsared}{Management in Small and Medium-Sized Commercial Buildings}\\\textit{Chung Jihoon; Huang Sen; Lian Jamie; Katipamula Srinivas; Lutes Robert}\end{tabular} & 764\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Generalized and Localized AI Models for Urban Energy Characterization: A Comparative}\\\textcolor{ibpsared}{Analysis for UBEM Inputs Inference}\\\textit{El Kontar Rawad; Almaian Maryam; Wald Dylan; Vaidhynathan Deepthi; King Ryan}\end{tabular} & 776\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{BESTOpt: A Modular, Physics-Informed Machine Learning based Building Modeling, Control}\\\textcolor{ibpsared}{and Optimization Framework}\\\textit{Jiang Zixin Song Ruizhi Li Guowen Zhang Yuhang O'Neill Zheng Wang Xuezheng}\\\textit{Goldfeder Judah Dong Bing}\end{tabular} & 786\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Passively Survivable Apartments: Retrofit Strategies for Multifamily Housing in Los}\\\textcolor{ibpsared}{Angeles During Extreme Heat Events}\\\textit{Knop Jennifer; Konis Kyle; Susman Gideon; Anderton Frances}\end{tabular} & 798\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{A Whole-Building Demonstration of Differentiable Predictive Control with Stochastic}\\\textcolor{ibpsared}{Occupant Behavior}\\\textit{Poplawski Michael; Ha Juwan; Dehwah Ammar H.A; Devaprasad Karthikeya}\end{tabular} & 810\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Optimization and Prediction of the performance of Spatial Configuration in a Housing}\\\textcolor{ibpsared}{Created Under Permitted Development Rights}\\\textit{Khalil Amany Macha Bhargav Azli Noorfazlenawati Davies Michael Oikonomou Eleni}\\\textit{Clifford Ben Mavrogianni Anna Raslan Rokia}\end{tabular} & 822\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Developing a New Set of Prototypical Models for Office Buildings in California}\\\textit{Yousefi Fatemeh; Athalye Rahul}\end{tabular} & 834\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Digitalizing Building Control Deployment for Retrofits: A Case Study on}\\\textcolor{ibpsared}{Demand-Flexible Control Sequences}\\\textit{Pritoni Marco Prakash Anand Paul Lazlo Huang Weiping Kukharchuk Roman}\\\textit{Dawson-Haggerty Stephen Sulzer Matthias Wetter Michael}\end{tabular} & 844\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Year-by-Year Dynamic Building Energy Assessment with Future Climate Projections}\\\textcolor{ibpsared}{Capturing Extremes and Fluctuations}\\\textit{Salehi Parisa; Karatas Aslihan}\end{tabular} & 856\\
+\begin{tabular}[c]{@{}l@{}}\textcolor{ibpsared}{Sun and Stone in the Windy City: New Estimates of Direct Solar Heating Potential in}\\\textcolor{ibpsared}{Greater Chicago}\\\textit{Rempel Alexandra; Momenaei Atousa; Rempel Alan; Mishra Sandipan}\end{tabular} & 865
+\end{longtable}
+
+\end{document}
