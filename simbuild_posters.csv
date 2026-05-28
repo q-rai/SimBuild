@@ -1,0 +1,116 @@
+﻿paperID,contribution_type,authors,organisations,title,keywords,topics,presenting_author
+1284,Revised Research Paper,"Passe, Ulrike;
+Sharifi, Kimia","Iowa State University, United States of America",Development of Residential Archetypes to Predict Indoor Temperatures of Vulnerable Homes,"Indoor overheating prediction, building thermal modeling, urban scale, archetypes","Urban and Community Scale Modeling
+Modeling of Adaptation Strategies
+Thermal, Visual, and Acoustic Comfort","Passe, Ulrike"
+1286,Revised Research Paper,"Uddin, Meftah;
+Khanna, Sanjeev","University of Missouri-Columbia, United States of America",Phase Change Material Integration in Building Energy Simulation Using OpenStudio Measures and Python Library,"Building Energy Modeling, OpenStudio Measure, Phase Change Material, Python Library","Evolving Performance Indicators
+Heating, Ventilation and Air-Conditioning System Modeling","Uddin, Meftah"
+1293,Revised Research Paper,"Ying, Albert;
+Arsano, Alpha","Belmont High School, United States of America",Evaluating the Impact of Indoor Hydroponic Systems on Students’ Well-being in High School Classrooms,"hydroponics, biophilic design, student well-being, indoor environment","Air Quality and Health Impacts
+Thermal, Visual, and Acoustic Comfort
+Occupant Behavior","Ying, Albert"
+1296,Revised Research Paper,"Davari, Malihe (1);
+Fitó, Jaume (2);
+Ramousse, Julien (2);
+Hinkelman, Kathryn (1)","1: University of Vermont, Burlington, VT, USA;
+2: Université Savoie Mont Blanc, Chambéry, France",Towards Open-Source Simulation Models for Flexible and Self-Sufficient Energy Hubs,"community scale modeling, dynamic simulation, energy hub, multi-energy systems, Modelica, optimization, open-source","Urban and Community Scale Modeling
+Evolving Performance Indicators
+Design Optimization","Davari, Malihe"
+1316,Revised Research Paper,"Sui, Jiyuan (1);
+Adhikari, Rosina (1);
+Sitzabee, William (1);
+Zuo, Wangda (1,2)","1: The Pennsylvania State University, United States of America;
+2: National Laboratory of the Rockies, United States of America",A Comprehensive Review of Meta-Learning Applications in Building Domain,"Machine Learning, Meta-Learning, Building Energy, Thermal Comfort, HVAC Control","Machine Learning for Building Operations
+Modeling of Adaptation Strategies","Sui, Jiyuan"
+1323,Revised Research Paper,"Flores Garcia, Juan Diego (1);
+Liu, Boming (2);
+Huang, Sen (2);
+Zuo, Wangda (1)","1: Department of Architectural Engineering, Pennsylvania State University, University Park, PA 16802 USA;
+2: Oak Ridge National Laboratory, Oak Ridge, TN, 37830",Co-design Optimal Sizing and Control Framework to Balance Cost and Resilience,"co-design, resilience, optimization, modelling","Modeling for Future Weather and Extreme Events
+Distributed Energy Resources
+Design Optimization
+Life-Cycle Modeling","Flores Garcia, Juan Diego"
+1337,Revised Research Paper,"McDowell, Timothy (1);
+Muehleisen, Ralph (2);
+Glazer, Jason (3)","1: Salas O'Brien, United States of America;
+2: Argonne National Laboratory, United States of America;
+3: Gard Analytics, United States of America",Adding Timeseries Acceptance Criteria to ASHRAE Standard 140,"Validation, ASHRAE 140, Acceptance Criteria",Verification and Validation,"McDowell, Timothy"
+1339,Revised Research Paper,"Chatzivasileiadi, Aikaterini (1);
+Demir Dilsiz, Aysegul (2);
+Lannon, Simon (1);
+Denzer, Anthony (2);
+Macy, Luke (2);
+BK, Satish (1);
+Perisoglou, Emmanouil (1);
+Jafar, Rawan (3);
+Haddad, Kamal (4);
+Qaed, Abeer (1)","1: Cardiff University, United Kingdom;
+2: University of Wyoming, United States of America;
+3: University of the West of England Bristol;
+4: Amman Arab University","Digital Twins for Building Energy Modeling: Balancing Level of Detail, Data Resolution, and Model Accuracy","Energy efficiency, level of details, model accuracy","Co-Simulation, Interoperability, and Building Information Modeling
+Verification and Validation","Macy, Luke"
+1349,Revised Research Paper,"El Kontar, Rawad (1);
+Almaian, Maryam (2);
+Clarke, Ardelia (1);
+Kastner, Patrick (2);
+Ferrall-Wolf, Isa (1);
+Tuttle, Robin (1);
+King, Ryan (1)","1: NLR, United States of America;
+2: GaTech, United States of America",AI-Based Metric for Building and Grid Reliability Assessment via Input Propagation and Stress Testing,"Machine Learning, Artificial Intelligence, Urban Energy Reliability Metrics, Uncertainty Analysis, Stress Testing","Generative AI
+Machine Learning for Building Design
+Urban and Community Scale Modeling
+Grid Interactions and Load Management","El Kontar, Rawad"
+1352,Revised Research Paper,"Dabbagh, Mohammad (1);
+Mirian, Nasim (1);
+Shadd, Eric (1);
+Arent, John (1);
+Athalye, Rahul (1);
+Vonder Kuhlen, Demian (1);
+Kapur, Nikhil (2);
+Wichert, RJ (2)","1: NORESCO, United States of America;
+2: California Energy Commission, United States of America",Integration and Implementation Verification of Air-to-Water Heat Pump Models for California’s Title 24 Compliance Software,"Air-to-Water Heat Pump, California’s Title 24 Compliance Software, CBECC, AWHP-EIR, EnergyPlus","Evolving Performance Indicators
+Design Optimization
+Heating, Ventilation and Air-Conditioning System Modeling
+Policy and Energy Codes","Dabbagh, Mohammad"
+1364,Revised Research Paper,"Abdalla, Ahmed Saber;
+Supriyatno, Alessandro;
+Abdelsalam, Mohamed;
+Pudleiner, David",ICF International Inc.,Efficient Residential Energy Model Calibration for Field Audits: Targeted Parameter Optimization Using OpenStudio and GenOpt,"Building energy modeling, Model calibration, GenOpt, OpenStudio, Field audits, BPI 2400, Parameter sensitivity, Residential retrofits, Optimization, Energy model verification","Design Optimization
+Uncertainty, Sensitivity Analysis, and Calibration
+Heating, Ventilation and Air-Conditioning Equipment
+Verification and Validation","Abdalla, Ahmed Saber"
+1372,Revised Research Paper,"Yousefi, Fatemeh;
+Athalye, Rahul","NORESCO, United States of America",Developing a New Set of Prototypical Models for Office Buildings in California,"prototype, office buildings, zoning layout, real data","Design Optimization
+Heating, Ventilation and Air-Conditioning System Modeling
+Heating, Ventilation and Air-Conditioning Equipment
+Policy and Energy Codes","Yousefi, Fatemeh"
+1376,Revised Research Paper,"Salehi, Parisa;
+Karatas, Aslihan","university of illinis chicago, United States of America",Year-by-Year Dynamic Building Energy Assessment with Future Climate Projections Capturing Extremes and Fluctuations,"Annual Future Weather Data, Future Weather Fluctuation, ​ Building Energy Assessment​ Unmet Heating Hours​, HVAC Resilience",Modeling for Future Weather and Extreme Events,"Salehi, Parisa"
+1394,Revised Research Paper,"Rempel, Alexandra (1);
+Momenaei, Atousa (1);
+Rempel, Alan (1);
+Mishra, Sandipan (2)","1: University of Oregon, United States of America;
+2: Rensselaer Polytechnic Institute, United States of America",Sun and Stone in the Windy City: New Estimates of Direct Solar Heating Potential in Greater Chicago,"Passive heating, Thermal mass, Skylights, Continental climate, Passive cooling","Passive and Hybrid Heating and Cooling
+Passive and Hybrid Buildings","Rempel, Alexandra"
+384,Non-Paper Presentation,"Hadadzadegan, Hani","Verdical Group, United States of America",From Pilot to Practice: Turning Whole-Building Carbon Accounting into Real-World Design Decisions,"Whole-building carbon, Net-zero operational energy, Life-cycle assessment (LCA), Performance-based design, Embodied Carbon","Equipment Efficiency
+Evolving Performance Indicators
+Design Optimization
+Building Envelope Physics
+Life-Cycle Modeling","Hadadzadegan, Hani"
+398,Non-Paper Presentation,"Vidwans, Suyash;
+Gardes, Brendan",Newcomb and Boyd,High Performance Building as Resilience Hub: Designing for Passive Survivability and Energy Resilience,"community resilience hub, extreme weather, future climate, island-able battery-backed solar PV","Modeling for Future Weather and Extreme Events
+Distributed Energy Resources
+Design Optimization
+Modeling of Adaptation Strategies
+Thermal, Visual, and Acoustic Comfort
+Passive and Hybrid Buildings","Vidwans, Suyash"
+1362,Non-Paper Presentation,"Washington, Hailey;
+Chan, Nicholas;
+Bamson, Paul;
+Zhang, Margaret","Skidmore, Owings, & Merrill, United States of America",An Environmental Framework For Optimizing Urban Design Parameters of New Districts,"District-Planning, Sustainability, Embodied Carbon, Operational Energy","Life-Cycle Modeling
+Lighting and Daylighting
+Air Quality and Health Impacts
+Thermal, Visual, and Acoustic Comfort","Zhang, Margaret"
+1420,Non-Paper Presentation,"Liu, Yingjie",University of Washington,Material-Aware Urban Energy Modeling from Street-View Façade Recognition,"urban building energy modelling, street view, facade materials","Machine Learning for Building Design
+Urban and Community Scale Modeling","Liu, Yingjie"
